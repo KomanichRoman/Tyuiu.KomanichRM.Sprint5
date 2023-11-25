@@ -21,7 +21,7 @@ namespace Tyuiu.KomanichRM.Sprint5.Task6.V19.Test
         [TestMethod]
         public void CheckedExistFile()
         {
-            string path = @"C:\DataSprint5\InPutDataFileTask5V3.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask6V19.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExist = fileInfo.Exists;
             bool wait = true;
